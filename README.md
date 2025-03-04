@@ -22,11 +22,9 @@ Model Training: Train the system using machine learning algorithms.
 
 Evaluation: Use accuracy, precision, recall, and RMSE for performance evaluation.
 
-API Deployment: Deploy the system using Flask API.
-
 Features
 
-News Data Collection (Web Scraping or Dataset-based)
+News Data Collection (Dataset-based)
 
 Data Preprocessing (Stopwords Removal, Tokenization)
 
@@ -36,8 +34,6 @@ Hybrid Recommendation System
 
 Model Training and Evaluation
 
-API Deployment with Flask
-
 Tech Stack
 
 Python
@@ -46,9 +42,8 @@ Scikit-learn
 
 Pandas
 
-Flask
-
 Git
+
 
 
 How to Run the Project
@@ -62,31 +57,9 @@ cd BBC-News-Recommendation
 
 pip install -r requirements.txt
 
-3. Run Flask API
+3. Run Jupyter Notebook
 
-python src/app.py
-
-API will be available at: http://localhost:5000
-
-API Endpoints
-
-Endpoint
-
-Method
-
-Description
-
-/recommend?user_id=1
-
-GET
-
-Get news recommendations for a user
-
-/all-news
-
-GET
-
-Fetch all available news articles
+Open the notebook folder and run the Jupyter Notebook to see the model training and evaluation process.
 
 Dataset Description
 
@@ -118,7 +91,9 @@ Collaborative Filtering requires more user interaction data.
 
 Future work includes integrating deep learning models and improving recommendation accuracy.
 
-To-Do List
+API Deployment and Web Interface integration.
+
+
 
 
 

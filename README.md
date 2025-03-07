@@ -1,12 +1,12 @@
-BBC News Recommendation System
+# BBC News Recommendation System
 
 This project is a BBC News Recommendation System that suggests relevant news articles to users using a hybrid approach (Content-Based + Collaborative Filtering). The system is built with Python and leverages machine learning algorithms to provide personalized news recommendations.
 
-Introduction
+## Introduction
 
 With the exponential growth of online news articles, users find it difficult to discover relevant news according to their preferences. This system aims to recommend personalized BBC news articles to users by analyzing content and user preferences.
 
-Methodology
+## Methodology
 
 The system follows the following steps:
 
@@ -22,7 +22,7 @@ Model Training: Train the system using machine learning algorithms.
 
 Evaluation: Use accuracy, precision, recall, and RMSE for performance evaluation.
 
-Features
+## Features
 
 News Data Collection (Dataset-based)
 
@@ -46,7 +46,7 @@ Git
 
 
 
-How to Run the Project
+## How to Run the Project
 
 1. Clone the Repository
 
@@ -97,7 +97,7 @@ API Deployment and Web Interface integration.
 
 
 
-Contributing
+## Contributing
 
 If you'd like to contribute, feel free to open a pull request!
 
